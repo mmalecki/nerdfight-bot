@@ -1,0 +1,20 @@
+{
+  "author": "Maciej Małecki <maciej.malecki@notimplemented.org>",
+  "name": "nerdfight-bot",
+  "description": "IRC bot for http://nodejs-vs-ror.nodejitsu.com/",
+  "version": "0.0.0",
+  "homepage": "http://nodejs-vs-ror.nodejitsu.com/",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mmalecki/nerdfight-bot.git"
+  },
+  "main": "./lib/nerdfight-bot",
+  "engines": {
+    "node": ">= 0.4"
+  },
+  "dependencies": {
+    "request": "2.2.x",
+    "irc": "0.3.x"
+  },
+  "devDependencies": {}
+}
